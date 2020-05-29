@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaHeart } from 'react-icons/fa';
 import './styles.css';
-import Img from './assets/coffee4.png';
+
 
 export default function App() {
 
@@ -25,10 +25,7 @@ export default function App() {
         <div className="btn">
           <button type="button" onClick={removeCoffee}>Ops! Errei na conta.</button>
           <button type="button" onClick={addCoffee}>Opa! Mais um!</button>
-        </div>
-        <div className="coffee_img">
-          <img src={Img} alt='coffee' />
-        </div>
+        </div>      
       </div>
     </div>
   )
